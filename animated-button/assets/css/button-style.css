@@ -1,0 +1,22 @@
+html, body{
+    height: 100%;
+    padding:5px;
+    overflow-y:hidden;
+    width:100%;
+    background-color: #5ac59e;
+}
+
+button {
+    font-size: 1em;
+    border-radius: 16px;
+    margin : 0 auto;
+    padding: 0px 2%;
+    height: auto;
+    line-height: 220%;
+    display: flex;
+    justify-content: center;
+    border:none;
+    color: white;
+    top:42%
+
+}

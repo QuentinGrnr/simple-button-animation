@@ -1,0 +1,43 @@
+.div-right {
+    position: absolute;
+    left:-50%;
+    top :-150%;
+    background-color: #6974DE;
+    width:200%;
+    height:200%;
+    rotate: 11deg;
+    transition: left 0.3s ease-in;
+}
+
+.div-left{
+    position: absolute;
+    left:-50%;
+    top :50%;
+    background-color: #6974DE;
+    width:200%;
+    height:200%;
+    rotate: 11deg;
+    transition: left 0.3s ease-in;
+}
+
+.new-button-property {
+    overflow:hidden;
+    position:relative;
+}
+
+.button:hover div.div-right{
+    left:110%;
+}
+
+.button:hover div.div-left{
+    left:-200%;
+}
+
+span {
+    position: relative;
+    z-index: 10;
+}
+
+.button{
+    background-color: #4e5ce1;
+}
